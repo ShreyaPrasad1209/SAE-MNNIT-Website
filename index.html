@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="./About/about.css" rel="stylesheet">
+  <title>Home | SAE MNNIT</title>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">
+      <img src="./assets/images/SAE LOGO REAL.png" class="logo">
+    </a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon navbar-dark"><img src="https://img.icons8.com/color/48/000000/menu.png" /></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+  
+        <li class="nav-item">
+          <a class="nav-link" href="./Events/event.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Projects/project.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Team/team.html">Teams</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Achievements/Achievements.html">Achievements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Gallery/gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Faculty Corner/faculty.html">Faculty Corner</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Sponsors/Sponsors.html">
+            <button class="Sponsors-btn">Sponsors</button>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div>
+    <!-- Nav ends -->
+    <header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="./video/64536815-882717085401637-3987295063188176896-n_ugh7Keja_okQ5.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-5">SAE INDIA COLLEGIATE CLUB OF MNNIT <br>
+            Mechanical Engineering Department <br>
+MNNIT ALLAHABAD <br>
+          </h1>
+          <h4 style="font-weight: 100;">Planning Greatness from Small Beginnings.</h6>
+        </div>
+      </div>
+    </div>
+</header>
+
+  <!-- About Us -->
+  <div class="container" style="background-color: #EAEBF3; min-width: 100%;" >
+    <h1 style="margin-top: 4rem;"> ABOUT US </h1>
+    <div class="row">
+      <div class="col-md-6">
+        <img style="width: 50%; margin-left: 11rem;" id="aboutusimage" src="./assets/images/aboutusimage3.jpeg" alt="">
+      </div>
+      <div class="col-md-6">
+        <div class="para" style=" height: fit-content;
+            text-align: center; padding: 3rem; font-family: 'Poppins', sans-serif;">
+          <h3>Vision</h3>
+          <p>
+            The vision of the club is to give young engineers an opportunity to showcase their talents,
+            simultaneously providing a platform to learn and gain expertise in the fields of R&D, manufacturing
+            associated with automobiles.
+
+          <h3>Mission</h3>
+
+          The club strives to promote the importance of practical experience, for the industry requires not only
+          knowledgable persons, but talented ones who can put that knowledge to use. This hands on approach
+          is what makes the club stand out from the others.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Us -->
+  <div class="contactus" style=" background-color:  #2F334F !important;" id="contact">
+    <h1> CONTACT US </h1>
+    <form class="contactform">
+
+      <div class="mb-3">
+        <label for="validationTextarea" style="color: white; margin-left: 1rem; font-weight: 500;">Name</label>
+        <textarea class="form-control" id="name" placeholder="Name"
+          required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1" style="color: white; margin-left: 1rem; font-weight: 500;">Email
+          address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+      </div>
+
+      <div class="mb-3">
+        <label for="validationTextarea" style="color: white; margin-left: 1rem; font-weight: 500;">Subject</label>
+        <textarea class="form-control" id="subject" placeholder="Subject"
+          required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1"
+          style="color: white; margin-left: 1rem; font-weight: 500;">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+      </div>
+      <button class="btn btn-primary" id="submit" type="submit"
+        style="background-color: #F15F7D; margin-left: 38%; width: 10rem; border: none;">
+        Send</button>
+    </form>
+  </div>
+  
+  <footer>
+    <!-- Footer -->
+  <div class="footer">
+    <div class="social-buttons ml-md-5 ml-sm-2">
+      <h1 class="mb-5" style="font-weight: 550;">CONNECT WITH US</h1>
+      <button class="neo-button mx-2"> <a href="https://www.facebook.com/saeclubmnnit/"><img src="https://img.icons8.com/color/48/000000/facebook-new.png"></a></button>
+      <button class="neo-button mx-2"> <a href="https://www.instagram.com/p/B-9GhsQFQPE/?igshid=1j4jhk9pwwrwo"> <img src="https://img.icons8.com/color/48/000000/instagram-new.png" /> </a></button>
+      <button class="neo-button mx-2"> <a href="http://twitter.com/team_Solarec"><img src="https://img.icons8.com/color/48/000000/twitter.png" /></a></button>
+      <button class="neo-button mx-2"> <a href="mailto:mnnitsae@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" /></a></button>
+    </div>
+    <div class="vl">
+      <h1 class="ml-lg-5 ml-md-3 ml-3">SAE | MNNIT </h1>
+    </div>
+    <h5 id="footerdata">WEB TEAM SAE MNNIT</h5>
+  </div>
+  </footer>
+  
+  
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+
+</html>
