@@ -84,13 +84,8 @@ button:focus {
     background-color: #2f334f !important;
     color: white;
 }
-/* .left {
-    border: 2px solid red;
-    height: 100vh;
-    width: 30%;
-    display: flex;
-    position: relative;
-} */
+
+
 
 video {
     height: 100%;
